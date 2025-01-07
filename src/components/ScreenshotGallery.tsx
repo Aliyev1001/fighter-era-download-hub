@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const screenshots = [
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
+  "/screenshots/fighter-1.jpg",  // Replace these with your actual screenshot paths
+  "/screenshots/fighter-2.jpg",
+  "/screenshots/fighter-3.jpg",
+  "/screenshots/fighter-4.jpg",
 ];
 
 const ScreenshotGallery = () => {
