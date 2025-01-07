@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { Sword, Shield, Zap, Trophy } from "lucide-react";
-import DownloadButton from "@/components/DownloadButton";
 import FeatureCard from "@/components/FeatureCard";
 import SystemRequirements from "@/components/SystemRequirements";
-import ScreenshotGallery from "@/components/ScreenshotGallery";
 
 const Index = () => {
   const features = [
@@ -44,7 +42,6 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
               Enter a new age of combat where legends are born and battles are won
             </p>
-            <DownloadButton platform="Windows" />
           </motion.div>
         </div>
       </section>
@@ -69,14 +66,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Screenshots Section */}
-      <section className="py-24">
-        <div className="container">
-          <h2 className="text-4xl font-bold text-center mb-16">Screenshots</h2>
-          <ScreenshotGallery />
-        </div>
-      </section>
-
       {/* System Requirements Section */}
       <section className="py-24 bg-game-charcoal">
         <div className="container">
@@ -84,20 +73,6 @@ const Index = () => {
             System Requirements
           </h2>
           <SystemRequirements />
-        </div>
-      </section>
-
-      {/* Download Section */}
-      <section className="py-24">
-        <div className="container text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Join the Fight?</h2>
-          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Download now and become part of the next evolution in fighting games
-          </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <DownloadButton platform="Windows" />
-            <DownloadButton platform="Mac" />
-          </div>
         </div>
       </section>
 
