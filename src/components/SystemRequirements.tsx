@@ -1,18 +1,18 @@
 const SystemRequirements = () => {
   const requirements = {
     minimum: {
-      os: "Windows 10 64-bit",
-      processor: "Intel Core i5-4460 / AMD FX-6300",
-      memory: "8 GB RAM",
-      graphics: "NVIDIA GeForce GTX 760 / AMD Radeon RX 560",
-      storage: "50 GB available space",
+      os: "Windows 7 32-bit",
+      processor: "Intel Core 2 Duo / AMD Athlon X2",
+      memory: "2 GB RAM",
+      graphics: "Intel HD Graphics / AMD Radeon HD 4000",
+      storage: "50 MB available space",
     },
     recommended: {
-      os: "Windows 10/11 64-bit",
-      processor: "Intel Core i7-8700K / AMD Ryzen 5 3600X",
-      memory: "16 GB RAM",
-      graphics: "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
-      storage: "50 GB SSD",
+      os: "Windows 10 64-bit",
+      processor: "Intel Core i3 / AMD FX-4300",
+      memory: "4 GB RAM",
+      graphics: "NVIDIA GeForce GT 730 / AMD Radeon R7 240",
+      storage: "50 MB available space",
     },
   };
 
